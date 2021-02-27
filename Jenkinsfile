@@ -24,4 +24,11 @@ pipeline {
                 }
           }
      }
+     post {
+          always {
+              mail to: 'mambadevops@gmail.com',
+              subject: "Completed Pipeline: ${currentBuild.fullDisplayName}",
+              body: "Your build completed, sir"
+          }
+     }
 }
