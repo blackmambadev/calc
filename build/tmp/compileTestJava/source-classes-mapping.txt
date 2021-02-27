@@ -1,0 +1,2 @@
+com/mamba/calc/CalcApplicationTests.java
+ com.mamba.calc.CalcApplicationTests
