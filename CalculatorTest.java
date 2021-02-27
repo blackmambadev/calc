@@ -9,5 +9,6 @@ public class CalculatorTest {
      public void testSum() {
           System.out.println("check test if test :)");
           assertEquals(5, calculator.sum(2, 3));
+          System.out.println("checked by AOL");
      }
 }
